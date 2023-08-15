@@ -1,0 +1,86 @@
+table {
+  border-collapse: collapse;
+  width: 75%;
+  margin-left: 200px;
+  margin-top: 130px;
+  text-align: center;
+}
+
+th, td {
+  text-align: center;
+  padding: 20px 30px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border-radius: 1px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: white;
+  font-family: sans-serif; 
+  text-transform: uppercase; 
+  letter-spacing: 0.03em;
+  color: black;
+  text-align: center;
+
+}
+i{
+	color: #090b16;
+
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px black;
+  text-decoration: none;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 55px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  top: 125%;
+  padding: 5px 0;
+  margin-left: -60px;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.btn{
+  width: 10%;
+  background: #090b16;
+  border: 2px solid;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  margin:40px 400px;
+  border-radius: 10px;
+}
+.btn:hover{
+  background: #f4f4f4;
+  color :  black;
+}
+.btn2{
+  width: 10%;
+  background: #090b16;
+  border: 2px solid;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  margin:20px 150px ;
+  border-radius: 10px;
+}
+.btn2:hover{
+  background: #f4f4f4;
+  color :  black;
+}

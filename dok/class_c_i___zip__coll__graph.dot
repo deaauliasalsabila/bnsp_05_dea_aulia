@@ -1,0 +1,7 @@
+digraph "CI_Zip"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{CI_Zip\n|+ $zipdata\l+ $directory\l+ $entries\l+ $file_num\l+ $offset\l+ $now\l+ $compression_level\l# $func_overload\l|+ __construct()\l+ add_dir()\l+ add_data()\l+ read_file()\l+ read_dir()\l+ get_zip()\l+ archive()\l+ download()\l+ clear_data()\l# _get_mod_time()\l# _add_dir()\l# _add_data()\l# strlen()\l# substr()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+}

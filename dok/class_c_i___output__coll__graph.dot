@@ -1,0 +1,7 @@
+digraph "CI_Output"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{CI_Output\n|+ $final_output\l+ $cache_expiration\l+ $headers\l+ $mimes\l+ $enable_profiler\l+ $parse_exec_vars\l# $mime_type\l# $_zlib_oc\l# $_compress_output\l# $_profiler_sections\l# $func_overload\l|+ __construct()\l+ get_output()\l+ set_output()\l+ append_output()\l+ set_header()\l+ set_content_type()\l+ get_content_type()\l+ get_header()\l+ set_status_header()\l+ enable_profiler()\land 7 more...\l# strlen()\l# substr()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+}

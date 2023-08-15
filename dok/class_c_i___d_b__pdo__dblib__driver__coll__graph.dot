@@ -1,0 +1,15 @@
+digraph "CI_DB_pdo_dblib_driver"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node5 [label="{CI_DB_pdo_dblib_driver\n|+ $subdriver\l# $_random_keyword\l# $_quoted_identifier\l|+ __construct()\l+ db_connect()\l+ field_data()\l+ version()\l# _list_tables()\l# _list_columns()\l# _update()\l# _delete()\l# _limit()\l# _insert_batch()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node6 [label="{CI_DB_pdo_driver\n|+ $dbdriver\l+ $options\l|+ __construct()\l+ db_connect()\l+ version()\l+ affected_rows()\l+ insert_id()\l+ error()\l# _execute()\l# _trans_begin()\l# _trans_commit()\l# _trans_rollback()\l# _escape_str()\l# _field_data()\l# _truncate()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_i___d_b__pdo__driver.html",tooltip=" "];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node7 [label="{CI_DB\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_i___d_b.html",tooltip=" "];
+  Node8 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node8 [label="{CI_DB_query_builder\n|# $return_delete_sql\l# $reset_delete_data\l# $qb_select\l# $qb_distinct\l# $qb_from\l# $qb_join\l# $qb_where\l# $qb_groupby\l# $qb_having\l# $qb_keys\land 21 more...\l|+ select()\l+ select_max()\l+ select_min()\l+ select_avg()\l+ select_sum()\l+ distinct()\l+ from()\l+ join()\l+ where()\l+ or_where()\land 43 more...\l# _max_min_avg_sum()\l# _create_alias_from\l_table()\l# _wh()\l# _where_in()\l# _like()\l# _group_get_type()\l# _limit()\l# _insert_batch()\l# _validate_insert()\l# _replace()\land 17 more...\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_i___d_b__query__builder.html",tooltip=" "];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node9 [label="{CI_DB_driver\n|+ $dsn\l+ $username\l+ $password\l+ $hostname\l+ $database\l+ $dbdriver\l+ $subdriver\l+ $dbprefix\l+ $char_set\l+ $dbcollat\land 20 more...\l# $_trans_depth\l# $_trans_status\l# $_trans_failure\l# $_protect_identifiers\l# $_reserved_identifiers\l# $_escape_char\l# $_like_escape_str\l# $_like_escape_chr\l# $_random_keyword\l# $_count_string\l|+ __construct()\l+ initialize()\l+ db_connect()\l+ db_pconnect()\l+ reconnect()\l+ db_select()\l+ error()\l+ db_set_charset()\l+ platform()\l+ version()\land 38 more...\l# _version()\l# _escape_str()\l# _insert()\l# _update()\l# _has_operator()\l# _get_operator()\l# _cache_init()\l# _close()\l# _reset_select()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_i___d_b__driver.html",tooltip=" "];
+}

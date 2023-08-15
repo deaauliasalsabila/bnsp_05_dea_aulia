@@ -1,0 +1,7 @@
+digraph "CI_Trackback"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{CI_Trackback\n|+ $charset\l+ $data\l+ $convert_ascii\l+ $response\l+ $error_msg\l|+ __construct()\l+ send()\l+ receive()\l+ send_error()\l+ send_success()\l+ data()\l+ process()\l+ extract_urls()\l+ validate_url()\l+ get_id()\l+ convert_xml()\l+ limit_characters()\l+ convert_ascii()\l+ set_error()\l+ display_errors()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+}

@@ -1,0 +1,6 @@
+var searchData=
+[
+  ['readme_2emd',['README.md',['../assets_2css_2fontawesome-free-5_80_88_2advanced-options_2use-with-node-js_2fontawesome_2_r_e_a_d_m_e_8md.html',1,'(Global Namespace)'],['../assets_2css_2fontawesome-free-5_80_88_2advanced-options_2use-with-node-js_2fontawesome-common-types_2_r_e_a_d_m_e_8md.html',1,'(Global Namespace)'],['../assets_2css_2fontawesome-free-5_80_88_2advanced-options_2use-with-node-js_2fontawesome-free-brands_2_r_e_a_d_m_e_8md.html',1,'(Global Namespace)'],['../assets_2css_2fontawesome-free-5_80_88_2advanced-options_2use-with-node-js_2fontawesome-free-regular_2_r_e_a_d_m_e_8md.html',1,'(Global Namespace)'],['../assets_2css_2fontawesome-free-5_80_88_2advanced-options_2use-with-node-js_2fontawesome-free-solid_2_r_e_a_d_m_e_8md.html',1,'(Global Namespace)'],['../assets_2css_2fontawesome-free-5_80_88_2advanced-options_2use-with-node-js_2fontawesome-free-webfonts_2_r_e_a_d_m_e_8md.html',1,'(Global Namespace)'],['../assets_2css_2fontawesome-free-5_80_88_2_r_e_a_d_m_e_8md.html',1,'(Global Namespace)'],['../tests_2_r_e_a_d_m_e_8md.html',1,'(Global Namespace)']]],
+  ['router_2ephp',['Router.php',['../_router_8php.html',1,'']]],
+  ['routes_2ephp',['routes.php',['../routes_8php.html',1,'']]]
+];

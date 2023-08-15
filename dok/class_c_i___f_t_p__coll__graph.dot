@@ -1,0 +1,7 @@
+digraph "CI_FTP"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{CI_FTP\n|+ $hostname\l+ $username\l+ $password\l+ $port\l+ $passive\l+ $debug\l# $conn_id\l|+ __construct()\l+ initialize()\l+ connect()\l+ changedir()\l+ mkdir()\l+ upload()\l+ download()\l+ rename()\l+ move()\l+ delete_file()\l+ delete_dir()\l+ chmod()\l+ list_files()\l+ mirror()\l+ close()\l# _login()\l# _is_conn()\l# _getext()\l# _settype()\l# _error()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+}

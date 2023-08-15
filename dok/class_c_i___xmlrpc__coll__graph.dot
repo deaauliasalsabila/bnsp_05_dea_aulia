@@ -1,0 +1,7 @@
+digraph "CI_Xmlrpc"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node5 [label="{CI_Xmlrpc\n|+ $debug\l+ $xmlrpcI4\l+ $xmlrpcInt\l+ $xmlrpcBoolean\l+ $xmlrpcDouble\l+ $xmlrpcString\l+ $xmlrpcDateTime\l+ $xmlrpcBase64\l+ $xmlrpcArray\l+ $xmlrpcStruct\land 18 more...\l|+ __construct()\l+ initialize()\l+ server()\l+ timeout()\l+ method()\l+ request()\l+ set_debug()\l+ values_parsing()\l+ send_request()\l+ display_error()\l+ display_response()\l+ send_error_message()\l+ send_response()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+}

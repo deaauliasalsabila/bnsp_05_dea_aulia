@@ -1,0 +1,13 @@
+digraph "PDF"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{PDF\n|# $col\l# $y0\l# $B\l# $I\l# $U\l# $HREF\l|+ Header()\l+ Footer()\l+ Header()\l+ Footer()\l+ ChapterTitle()\l+ ChapterBody()\l+ PrintChapter()\l+ Header()\l+ Footer()\l+ SetCol()\land 13 more...\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{FPDF\n|+ $hPt\l+ $h\l+ $y\l# $page\l# $n\l# $offsets\l# $buffer\l# $pages\l# $state\l# $compress\l# $k\l# $DefOrientation\l# $CurOrientation\land 45 more...\l|+ __construct()\l+ SetMargins()\l+ SetLeftMargin()\l+ SetTopMargin()\l+ SetRightMargin()\l+ SetAutoPageBreak()\l+ SetDisplayMode()\l+ SetCompression()\l+ SetTitle()\l+ SetAuthor()\land 38 more...\l# _dochecks()\l# _checkoutput()\l# _getpagesize()\l# _beginpage()\l# _endpage()\l# _loadfont()\l# _isascii()\l# _httpencode()\l# _UTF8toUTF16()\l# _escape()\land 28 more...\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_f_p_d_f.html",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+}

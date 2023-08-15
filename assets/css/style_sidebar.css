@@ -1,0 +1,149 @@
+/* Primary Styles */
+*, *::before, *::after {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: sans-serif;
+   font-size: 1em;
+   color: #333;
+}
+
+/*h1 {
+  font-size: 40px;
+  margin-top: 90px;
+  text-align: center;
+}*/
+
+
+
+em {
+   font-style: normal;
+}
+
+a {
+   text-decoration: none;
+   color: #767f87;
+} 
+
+/* Layout */
+.s-layout {
+   display: flex;
+   width: 100%;
+   min-height: 50%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.s-layout-content {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex: 1;    
+}
+
+/* Sidebar */
+.s-sidebar-trigger {
+   z-index: 2;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   height: 70px;
+   background: #090b16;
+}
+
+.s-sidebar-trigger > i {
+   display: inline-block;
+   margin: 1.5em 0 0 1.5em;
+   color: white;
+}
+
+.s-sidebar-nav {
+   position: fixed;
+   top: 0;
+   left: -15em;
+   overflow: hidden;
+   transition: all .3s ease-in;
+   width: 15em;
+   height: 100%;
+   background: #090b16;
+   color: rgba(9, 11, 22);
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.s-sidebar-nav:hover,
+.s-sidebar-nav:focus,
+.s-sidebar-trigger:focus + .s-sidebar-nav,
+.s-sidebar-trigger:hover + .s-sidebar-nav {
+   left: 0;
+}
+
+.s-sidebar-nav ul {
+   position: absolute;
+   top: 4em;
+   left: 0;
+   margin: 0;
+   padding: 0;
+   width: 15em;
+}
+
+.s-sidebar-nav ul li {
+   width: 100%;
+}
+
+.s-sidebar-nav-link {
+   position: relative;
+   display: inline-block;
+   width: 100%;
+   height: 4em;
+}
+
+.s-sidebar-nav-link em {
+   position: absolute;
+   top: 50%;
+   left: 4em;
+   transform: translateY(-50%);
+}
+
+.s-sidebar-nav-link:hover {
+   background: #1a2026;
+   color: white;
+}
+
+hr{
+   border-top: 1px solid #f4f4f4;
+}
+
+.s-sidebar-nav-link > i {
+   position: absolute;
+   top: 0;
+   left: 0;
+   display: inline-block;
+   width: 4em;
+   height: 4em;
+   color: #3d464f;
+}
+
+.s-sidebar-nav-link > i::before {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+.span-user{
+ margin-left: 15px;
+ letter-spacing: 0.05em; 
+ font-family: sans-serif;
+ text-transform: uppercase;
+ color: white;
+}
+.logo{
+   width: 100px; 
+   height: 100px; 
+   margin-top: 90px; 
+   margin-left: 50px;
+}
+.icons{
+   color: white;
+}

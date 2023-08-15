@@ -1,0 +1,7 @@
+digraph "CI_DB_result"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node13 [label="{CI_DB_result\n|+ $conn_id\l+ $result_id\l+ $result_array\l+ $result_object\l+ $custom_result_object\l+ $current_row\l+ $num_rows\l+ $row_data\l|+ __construct()\l+ num_rows()\l+ result()\l+ custom_result_object()\l+ result_object()\l+ result_array()\l+ row()\l+ set_row()\l+ custom_row_object()\l+ row_object()\land 11 more...\l# _fetch_assoc()\l# _fetch_object()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+}

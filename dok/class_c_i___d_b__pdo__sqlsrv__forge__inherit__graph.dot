@@ -1,0 +1,11 @@
+digraph "CI_DB_pdo_sqlsrv_forge"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{CI_DB_pdo_sqlsrv_forge\n|# $_create_table_if\l# $_drop_table_if\l# $_unsigned\l|# _alter_table()\l# _attr_type()\l# _attr_auto_increment()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{CI_DB_pdo_forge\n|# $_create_table_if\l# $_drop_table_if\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_i___d_b__pdo__forge.html",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{CI_DB_forge\n|+ $fields\l+ $keys\l+ $primary_keys\l+ $db_char_set\l# $db\l# $_create_database\l# $_drop_database\l# $_create_table\l# $_create_table_if\l# $_create_table_keys\l# $_drop_table_if\l# $_rename_table\l# $_unsigned\l# $_null\l# $_default\l|+ __construct()\l+ create_database()\l+ drop_database()\l+ add_key()\l+ add_field()\l+ create_table()\l+ drop_table()\l+ rename_table()\l+ add_column()\l+ drop_column()\l+ modify_column()\l# _create_table()\l# _create_table_attr()\l# _drop_table()\l# _alter_table()\l# _process_fields()\l# _process_column()\l# _attr_type()\l# _attr_unsigned()\l# _attr_default()\l# _attr_unique()\l# _attr_auto_increment()\l# _process_primary_keys()\l# _process_indexes()\l# _reset()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_i___d_b__forge.html",tooltip=" "];
+}

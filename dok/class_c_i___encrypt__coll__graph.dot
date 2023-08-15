@@ -1,0 +1,7 @@
+digraph "CI_Encrypt"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{CI_Encrypt\n|+ $encryption_key\l# $_hash_type\l# $_mcrypt_exists\l# $_mcrypt_cipher\l# $_mcrypt_mode\l|+ __construct()\l+ get_key()\l+ set_key()\l+ encode()\l+ decode()\l+ encode_from_legacy()\l+ mcrypt_encode()\l+ mcrypt_decode()\l+ set_cipher()\l+ set_mode()\l+ set_hash()\l+ hash()\l# _xor_decode()\l# _xor_merge()\l# _add_cipher_noise()\l# _remove_cipher_noise()\l# _get_cipher()\l# _get_mode()\l# strlen()\l# substr()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+}

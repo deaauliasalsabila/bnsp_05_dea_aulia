@@ -1,0 +1,7 @@
+digraph "CI_Profiler"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{CI_Profiler\n|# $_available_sections\l# $_query_toggle_count\l# $CI\l|+ __construct()\l+ set_sections()\l+ run()\l# _compile_benchmarks()\l# _compile_queries()\l# _compile_get()\l# _compile_post()\l# _compile_uri_string()\l# _compile_controller_info()\l# _compile_memory_usage()\l# _compile_http_headers()\l# _compile_config()\l# _compile_session_data()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+}

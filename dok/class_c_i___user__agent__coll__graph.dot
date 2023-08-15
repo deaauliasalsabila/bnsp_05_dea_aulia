@@ -1,0 +1,7 @@
+digraph "CI_User_agent"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{CI_User_agent\n|+ $agent\l+ $is_browser\l+ $is_robot\l+ $is_mobile\l+ $languages\l+ $charsets\l+ $platforms\l+ $browsers\l+ $mobiles\l+ $robots\land 6 more...\l|+ __construct()\l+ is_browser()\l+ is_robot()\l+ is_mobile()\l+ is_referral()\l+ agent_string()\l+ platform()\l+ browser()\l+ version()\l+ robot()\land 7 more...\l# _load_agent_file()\l# _compile_data()\l# _set_platform()\l# _set_browser()\l# _set_robot()\l# _set_mobile()\l# _set_languages()\l# _set_charsets()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+}

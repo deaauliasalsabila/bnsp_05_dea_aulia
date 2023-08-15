@@ -1,0 +1,9 @@
+digraph "CI_Cache"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{CI_Cache\n|+ $key_prefix\l# $valid_drivers\l# $_cache_path\l# $_adapter\l# $_backup_driver\l|+ __construct()\l+ get()\l+ save()\l+ delete()\l+ increment()\l+ decrement()\l+ clean()\l+ cache_info()\l+ get_metadata()\l+ is_supported()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{CI_Driver_Library\n|# $valid_drivers\l# $lib_name\l|+ __get()\l+ load_driver()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_i___driver___library.html",tooltip=" "];
+}

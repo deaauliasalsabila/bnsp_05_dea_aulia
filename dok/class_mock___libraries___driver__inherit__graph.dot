@@ -1,0 +1,9 @@
+digraph "Mock_Libraries_Driver"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{Mock_Libraries_Driver\n||+ driver_list()\l+ get_name()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{CI_Driver_Library\n|# $valid_drivers\l# $lib_name\l|+ __get()\l+ load_driver()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_i___driver___library.html",tooltip=" "];
+}

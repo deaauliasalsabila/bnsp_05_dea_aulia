@@ -1,0 +1,64 @@
+
+/* memberikan border pada tabel */
+.table { border-right: 1px solid black; border-bottom: 1px solid black; }
+.table th, .table td { border-left: 1px solid black; border-top: 1px solid black; padding: 3px; font-size: 12px}
+/* menyembunyikan tombol aksi */
+.action {
+	display: none;
+}
+.action thead {
+	color:#fff;
+	display: none;
+	width: 100%;
+	background-color: #333;
+}
+/* make it scrolled */
+.action tbody {
+	display: none;
+	overflow-y: auto;
+	width: 100%;
+	max-height:400px;
+	position: static;
+}
+.fixed-th {
+  width: 50%;
+  border-collapse: collapse;
+  box-shadow: 0 2px 3px 1px #ddd;
+  table-layout: fixed;
+  border:10px solid #fff;
+}
+.fixed-th th,.fixed-th td{
+  padding:10px 7px;
+  text-align: center;
+}
+.fixed-th th + th, .fixed-th td + td {
+  border-left:1px solid #ddd;
+}
+.fixed-th th:nth-child(1), .fixed-th td:nth-child(1) {
+  min-width:120px;
+}
+.fixed-th th:nth-child(2), .fixed-th td:nth-child(2) {
+  min-width:179px;
+}
+.fixed-th th:nth-child(3), .fixed-th td:nth-child(3) {
+  min-width:180px;
+}
+.fixed-th th:nth-child(4), .fixed-th td:nth-child(4) {
+  min-width:180px;
+}
+.fixed-th th:nth-child(5), .fixed-th td:nth-child(5) {
+  min-width:180px;
+}
+.fixed-th th:nth-child(6), .fixed-th td:nth-child(6) {
+  width:100px;
+}
+.form-input-transaksi{
+	margin-left: 800px;
+	margin-top: 5px;
+	font-weight: bold;
+  text-align: center;
+
+}
+.struk td{
+	width: 100px;
+}

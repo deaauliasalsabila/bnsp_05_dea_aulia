@@ -1,0 +1,273 @@
+@font-face {
+  font-family: Lato-Regular;
+  src: url('../fonts/Lato/Lato-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Lato-Bold;
+  src: url('../fonts/Lato/Lato-Bold.ttf'); 
+}
+
+@font-face {
+  font-family: Cocogoose;
+  src: url('../fonts/cocogoose/Cocogoose.ttf'); 
+}
+
+@font-face {
+  font-family: PRIMETIME;
+  src: url('../fonts/primetime/PRIMETIME.ttf'); 
+}
+
+@font-face {
+  font-family: Action Jackson;
+  src: url('../fonts/action_jackson/actionj.ttf'); 
+}
+
+@font-face {
+  font-family: Couture;
+  src: url('../fonts/couture/couture-bld.otf'); 
+}
+
+@font-face {
+  font-family: Couture;
+  src: url('../fonts/couture/couture-bldit.otf'); 
+}
+
+@font-face {
+  font-family: Cocogoose Pro;
+  src: url('../fonts/cocogoose/Cocogoose-Pro-Italic.ttf'); 
+}
+
+@font-face{
+  font-family: Highstories Sans;
+  src: url('../fonts/highstories_sans/Highstories-Sans.otf');
+}
+
+@font-face{
+  font-family: california;
+  src: url('../fonts/california.otf');
+}
+
+@font-face{
+  font-family: california-medium;
+  src: url('../fonts/california-medium.otf');
+}
+
+/*cream = #ffedba*/
+/*dongker = #293d5e */
+/*oren = #ec462e*/
+
+.body{
+  font-family: california-medium;
+  background-color: white;
+  color:black;
+}
+
+nav ul{
+  /*border-radius: 5px;*/
+  list-style-type: none;/*titik disamping menu*/
+  background-color: black;
+  overflow: hidden;
+  margin:0;
+  padding: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  /*top: 0;*/
+  border-bottom: /*1px solid #e7e7e7*/;
+  border-top:;
+}
+
+nav li{
+  float: right;
+
+}
+
+nav li a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 25px 27px;
+  font-size: 15px;
+  font-family: couture;
+}
+
+nav li a:hover{
+  background-color: #111 /*#35507c*/;
+  text-decoration: none;
+  color: #ec462e;
+}
+
+.aktif{
+  background-color: white;
+  color: #00284c;
+}
+
+.logoheader{
+  width: 5%;
+  height: auto;
+}
+
+.parallax{
+  background-image: url("../gambar/8.jpg");
+  min-height: 382px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Cocogoose Pro;
+  font-size: 90px;
+  color: #f3f3f3;
+  text-shadow: 3px 3px #293d5e;
+  text-align: left;
+  padding-top: 0px;
+  font-weight: 500; 
+  -webkit-filter:brightness(90%);
+}
+
+.garis {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+   background-color: #ec462e;
+}
+
+.gambarmenu:hover{
+  -webkit-filter:brightness(40%);
+}
+
+.judul{
+  font-family: Highstories Sans;
+  font-size: 80px;
+  text-align: center;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.gambarmenu{
+  width: 100%;
+  height: auto;
+}
+
+.kiri{
+  text-align: left;
+}
+
+.kanan{
+  text-align: right;
+}
+
+.textisi{
+  font-size: 20px;
+}
+
+.textfooter{
+  font-size: 18px;
+}
+
+.putih{
+  color: white;
+}
+
+.oren{
+  color: #ec462e;
+}
+
+.kotak{
+   padding: 10px;
+    background-color:black;
+    margin: 20px;
+    color: white;
+    text-shadow: 1px 1px black;
+    /*margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;*/
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);    
+}
+
+.jarakatas{
+  margin-top: 3%;
+}
+
+.jarakbawah{
+  margin-bottom: 3%;
+}
+
+.btnpesan{
+    
+    padding: 14px 26px;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.btnpesan:hover {
+    border: 2px solid #ec462e;
+    color: #ff3232;
+}
+
+.footer{
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   font-family: none;
+   /*text-shadow: 2px 1px black;*/
+
+}
+
+.copyright{
+  font-size: 15px;
+ text-align: left;
+  /*font-family: Dotum;*/
+  color: black;
+}
+.logofooter{
+  width: 60%;
+  height: auto;
+}
+
+/*.textparallax{
+  font-size: 40px;
+  color: #ff3232;
+  background-color: #ffedba;
+}*/
+
+#link a:hover{
+  text-decoration: none;
+  color: #ec462e;
+}
+
+.infotxt{
+  font-family: LATO-BOLD;
+  font-size: 25px;
+  float: right;
+  text-shadow: 1px 2px black;
+
+}
+
+.jarakiri{
+  margin-left: 5%;
+}
+
+.info{
+   left: 0;
+   bottom: 0;
+   width: 100%; 
+   background-color: #ba2f1b;
+   color: white;
+   
+   /*border-radius: 10px;*/
+  /* -webkit-filter:brightness(70%);*/
+}

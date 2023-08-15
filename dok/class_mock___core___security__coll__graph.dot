@@ -1,0 +1,9 @@
+digraph "Mock_Core_Security"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{Mock_Core_Security\n||+ csrf_set_cookie()\l+ __get()\l+ remove_evil_attributes()\l+ __call()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{CI_Security\n|+ $filename_bad_chars\l+ $charset\l# $_xss_hash\l# $_csrf_hash\l# $_csrf_expire\l# $_csrf_token_name\l# $_csrf_cookie_name\l# $_never_allowed_str\l# $_never_allowed_regex\l|+ __construct()\l+ csrf_verify()\l+ csrf_set_cookie()\l+ csrf_show_error()\l+ get_csrf_hash()\l+ get_csrf_token_name()\l+ xss_clean()\l+ xss_hash()\l+ get_random_bytes()\l+ entity_decode()\l+ sanitize_filename()\l+ strip_image_tags()\l# _urldecodespaces()\l# _compact_exploded_words()\l# _sanitize_naughty_html()\l# _js_link_removal()\l# _js_img_removal()\l# _convert_attribute()\l# _filter_attributes()\l# _decode_entity()\l# _do_never_allowed()\l# _csrf_set_hash()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_i___security.html",tooltip=" "];
+}

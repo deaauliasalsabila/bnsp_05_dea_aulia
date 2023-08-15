@@ -1,0 +1,7 @@
+digraph "CI_Pagination"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{CI_Pagination\n|+ $per_page\l+ $cur_page\l# $base_url\l# $prefix\l# $suffix\l# $total_rows\l# $num_links\l# $use_page_numbers\l# $first_link\l# $next_link\l# $prev_link\l# $last_link\land 25 more...\l|+ __construct()\l+ initialize()\l+ create_links()\l# _parse_attributes()\l# _attr_rel()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+}

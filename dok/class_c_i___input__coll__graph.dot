@@ -1,0 +1,7 @@
+digraph "CI_Input"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{CI_Input\n|# $ip_address\l# $_allow_get_array\l# $_standardize_newlines\l# $_enable_xss\l# $_enable_csrf\l# $headers\l# $_raw_input_stream\l# $_input_stream\l# $security\l# $uni\l|+ __construct()\l+ get()\l+ post()\l+ post_get()\l+ get_post()\l+ cookie()\l+ server()\l+ input_stream()\l+ set_cookie()\l+ ip_address()\land 8 more...\l# _fetch_from_array()\l# _sanitize_globals()\l# _clean_input_data()\l# _clean_input_keys()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+}

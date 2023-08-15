@@ -1,0 +1,7 @@
+digraph "CI_Table"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{CI_Table\n|+ $rows\l+ $heading\l+ $auto_heading\l+ $caption\l+ $template\l+ $newline\l+ $empty_cells\l+ $function\l|+ __construct()\l+ set_template()\l+ set_heading()\l+ make_columns()\l+ set_empty()\l+ add_row()\l+ set_caption()\l+ generate()\l+ clear()\l# _prep_args()\l# _set_from_db_result()\l# _set_from_array()\l# _compile_template()\l# _default_template()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+}

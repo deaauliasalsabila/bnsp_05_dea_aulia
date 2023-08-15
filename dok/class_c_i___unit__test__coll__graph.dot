@@ -1,0 +1,7 @@
+digraph "CI_Unit_test"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{CI_Unit_test\n|+ $active\l+ $results\l+ $strict\l# $_template\l# $_template_rows\l# $_test_items_visible\l|+ __construct()\l+ set_test_items()\l+ run()\l+ report()\l+ use_strict()\l+ active()\l+ result()\l+ set_template()\l# _backtrace()\l# _default_template()\l# _parse_template()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+}

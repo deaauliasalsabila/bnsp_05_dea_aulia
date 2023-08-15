@@ -1,0 +1,7 @@
+digraph "CI_Typography"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{CI_Typography\n|+ $block_elements\l+ $skip_elements\l+ $inline_elements\l+ $inner_block_required\l+ $last_block_element\l+ $protect_braced_quotes\l|+ auto_typography()\l+ format_characters()\l+ nl2br_except_pre()\l# _format_newlines()\l# _protect_characters()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+}

@@ -1,0 +1,21 @@
+Akun: 
+
+username :  admin
+password : admin
+
+//pelanggan
+username : ranirnzn
+password : ranirnzn
+
+//owner
+username : owner
+password : owner
+
+//waiter 
+username : waiter
+password : waiter
+
+//kasir
+
+username : kasir
+password : kasir

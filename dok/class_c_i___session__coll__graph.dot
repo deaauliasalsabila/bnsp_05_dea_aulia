@@ -1,0 +1,7 @@
+digraph "CI_Session"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{CI_Session\n|+ $userdata\l# $_driver\l# $_config\l# $_sid_regexp\l|+ __construct()\l+ mark_as_flash()\l+ get_flash_keys()\l+ unmark_flash()\l+ mark_as_temp()\l+ get_temp_keys()\l+ unmark_temp()\l+ __get()\l+ __isset()\l+ __set()\land 14 more...\l# _ci_load_classes()\l# _configure()\l# _configure_sid_length()\l# _ci_init_vars()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+}

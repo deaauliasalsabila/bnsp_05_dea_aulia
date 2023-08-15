@@ -1,0 +1,548 @@
+@font-face {
+  font-family: Lato-Regular;
+  src: url('../fonts/Lato/Lato-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Lato-Bold;
+  src: url('../fonts/Lato/Lato-Bold.ttf'); 
+}
+
+@font-face {
+  font-family: Cocogoose;
+  src: url('../fonts/cocogoose/Cocogoose.ttf'); 
+}
+
+@font-face {
+  font-family: PRIMETIME;
+  src: url('../fonts/primetime/PRIMETIME.ttf'); 
+}
+
+@font-face {
+  font-family: Action Jackson;
+  src: url('../fonts/action_jackson/actionj.ttf'); 
+}
+
+@font-face {
+  font-family: Couture;
+  src: url('../fonts/couture/couture-bld.otf'); 
+}
+
+@font-face {
+  font-family: Couture;
+  src: url('../fonts/couture/couture-bldit.otf'); 
+}
+
+@font-face {
+  font-family: Cocogoose Pro;
+  src: url('../fonts/cocogoose/Cocogoose-Pro-Italic.ttf'); 
+}
+
+@font-face{
+  font-family: Highstories Sans;
+  src: url('../fonts/highstories_sans/Highstories-Sans.otf');
+}
+
+@font-face{
+  font-family: california;
+  src: url('../fonts/california.otf');
+}
+
+@font-face{
+  font-family: california-medium;
+  src: url('../fonts/california-medium.otf');
+}
+
+/*cream = #ffedba*/
+/*dongker = #293d5e */
+/*oren = #ec462e*/
+body{
+	background-color: #f4f4f4;
+  font-family: lato-bold;
+  color:#444242;
+}
+
+.ltgl input[type=date]{
+    border: 1px solid #444242;
+    border-radius: 0;
+    width: 15%;
+    padding: 2px 2px 2px 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.putihtua{
+  color: #f4f4f4;
+}
+
+.bputihtua{
+  background-color: #f4f4f4;
+}
+
+.dongker{
+  color: #090b16;
+}
+
+.bdongker{
+  background-color: #090b16;
+}
+
+.btncari{
+  padding: 10px;
+  width: 30%;
+  border-radius: 10px;
+  background-color: #090b16;
+  color: white;
+}
+
+.btncari:hover{
+  background-color: #f4f4f4;
+  color: #090b16;
+  border: 1px solid #090b16;
+}
+
+.dashboard{
+	text-decoration: none;
+}
+.row{
+  display: grid;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  grid-template-rows: repeat(1, auto);
+  grid-template-columns: repeat(3, auto);
+}
+.p-tittle{
+	margin-left: 15px;
+	font-size: 23px;
+	margin-top: 10px;
+	color:  #f4f4f4;
+}
+
+.judulkotak{
+	font-size: 30px;
+  text-align: center;
+}
+
+.judulkotak:hover{
+  color: white;
+}
+
+#readashboard td span{
+	font-family: lato-regular;
+	font-size: 20px;
+}
+
+.btneditambah{
+	padding: 20px;
+	width: 50%;
+	border-radius: 10px;
+	background-color: #090b16;
+	color: white;
+}
+
+.btneditambah:hover{
+	text-decoration: none;
+	color: #f7f7f7;
+}
+
+h1{
+	margin-bottom: 4%;
+	color: #444242;
+}
+
+.kotak-abu{
+	width: 350px;
+	padding: 10px;
+	height: 200px;
+	background-color: #090b16;
+	color: white;
+	/*margin-left: 315px;*/
+	margin-top: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.jarakatas{
+  margin-top: 3%;
+}
+
+.jarakanan{
+  margin-right: 30px;
+}
+
+.kotak{
+    padding: 20px;
+    margin-right: 30px;
+    background-color:white;
+    color: white;
+    /*border: 1px solid gold;*/
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.kotak-abu2{
+	width: 350px;
+	height: 200px;
+	background-color: #bfbfbf;
+	margin-left: 9\50px;
+	margin-top: 20px;
+	border-radius: 4px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.kotak-abu3{
+	width: 350px;
+	height: 200px;
+	background-color: #bfbfbf;
+	margin-left: 5px;
+	margin-top: 20px;
+	border-radius: 4px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.logo{
+	width: 100px; 
+	height: 100px; 
+	margin-top: 80px; 
+	margin-left: 60px;
+}
+
+/*==============================LIST DATA=========================================*/
+
+#listdashboard table {
+  border-collapse: collapse;
+  width: 100%;
+   min-height: 30vh;
+  border-collapse: separate; 
+  border-spacing: 0 10px; 
+  overflow: hidden;
+  background-color: #fff;
+   margin-right: -30px;
+padding-right: 30px;
+margin-bottom: 2%;
+text-align: center;
+}
+
+.imgfood{
+  width: 100px;
+}
+
+#listdashboard tr {
+  overflow: hidden; 
+  border-bottom: 10px solid #fff;
+  border-radius: 15px;
+}
+
+#listdashboard td {
+font-family: Lato-Regular;
+  font-size: 15px;
+  color: #444242;
+  line-height: 1.4;
+  background-color: #f4f4f4;
+
+  border: solid 1px transparent;
+    border-style: solid none;
+    /*padding-top: 10px;
+    padding-bottom: 10px;*/
+
+    font-weight: unset;
+  padding-right: 10px;
+  padding-left: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  
+}
+
+#listdashboard tr:hover td {
+  background-color: #ebebeb;
+  cursor: pointer;
+}
+
+#listdashboard th {
+  padding-top: 25px;
+  font-size: 20px;
+  padding-bottom: 25px;
+  font-weight: bold;
+  padding-right: 10px;
+  padding-left: 20px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  color: #444242;
+}
+
+a:hover{
+	text-decoration: none;
+	color: black;
+}
+
+#listdashboard td:last-child {
+    border-right-style: solid;
+    border-bottom-right-radius: 10px; 
+    border-top-right-radius: 10px; 
+}
+
+#listdashboard td:first-child {
+    border-left-style: solid;
+    border-top-left-radius: 10px; 
+    border-bottom-left-radius: 10px;
+}
+
+#listdashboard th {
+  overflow: hidden; 
+  border-bottom: 7px solid #fff;
+  border-radius: 10px;
+  
+}
+
+
+/*================================================================================*/
+
+/*=======================EDIT DATA=============================================*/
+#editambahdashboard table {
+  border-collapse: collapse;
+  width: 70%;
+ /*  min-height: 60vh;*/
+  border-collapse: separate; 
+  border-spacing: 0 10px; 
+  overflow: hidden;
+  background-color: #fff;
+   margin-right: -30px;
+padding-right: 30px;
+margin-bottom: 4%;
+}
+
+#editambahdashboard table tr {
+  overflow: hidden; 
+  border-bottom: 10px solid #fff;
+  border-radius: 15px;
+}
+
+#editambahdashboard table td {
+font-family: Lato-Regular;
+  font-size: 15px;
+  color: #444242;
+  line-height: 1.4;
+  background-color: #f4f4f4;
+  text-align: center;
+  border: solid 1px transparent;
+    border-style: solid none;
+    /*padding-top: 10px;
+    padding-bottom: 10px;*/
+
+    font-weight: unset;
+  padding-right: 10px;
+  padding-left: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  
+}
+
+#editambahdashboard tr:hover td {
+  background-color: #ebebeb;
+  cursor: pointer;
+}
+
+#editambahdashboard td:last-child {
+    border-right-style: solid;
+    border-bottom-right-radius: 10px; 
+    border-top-right-radius: 10px; 
+}
+
+#editambahdashboard td:first-child {
+    border-left-style: solid;
+    border-top-left-radius: 10px; 
+    border-bottom-left-radius: 10px;
+}
+/*=============================================================================*/
+
+/*=======================READ DATA===========================================*/
+
+#readashboard table {
+  border-collapse: collapse;
+  width: 70%;
+ /*  min-height: 60vh;*/
+  border-collapse: separate; 
+  border-spacing: 0 10px; 
+  overflow: hidden;
+  background-color: #fff;
+   margin-right: -30px;
+padding-right: 30px;
+margin-bottom: 4%;
+}
+
+#readashboard table tr {
+  overflow: hidden; 
+  border-bottom: 10px solid #fff;
+  border-radius: 15px;
+}
+
+#readashboard table td {
+font-family: Lato-Regular;
+  font-size: 15px;
+  color: #444242;
+  line-height: 1.4;
+  background-color: #f4f4f4;
+  text-align: center;
+  border: solid 1px transparent;
+    border-style: solid none;
+    /*padding-top: 10px;
+    padding-bottom: 10px;*/
+
+    font-weight: unset;
+  padding-right: 10px;
+  padding-left: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  
+}
+
+#readashboard tr:hover td {
+  background-color: #ebebeb;
+  cursor: pointer;
+}
+
+th {
+  padding-top: 25px;
+  padding-bottom: 25px;
+      font-weight: unset;
+  padding-right: 10px;
+  padding-left: 20px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+#readashboard td:last-child {
+    border-right-style: solid;
+    border-bottom-right-radius: 10px; 
+    border-top-right-radius: 10px; 
+}
+
+#readashboard td:first-child {
+    border-left-style: solid;
+    border-top-left-radius: 10px; 
+    border-bottom-left-radius: 10px;
+}
+
+th {
+   overflow: hidden; 
+  border-bottom: 10px solid #fff;
+  border-radius: 10px;
+  
+}
+
+/*======================================================================*/
+
+.lform{
+	font-size: 20px;
+	font-family: lato-bold;
+}
+
+/*====================INPUT TYPE===============================================*/
+input[type=text], select {
+   width: 60%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  }
+
+.selectstatus select{
+   width: 60%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+
+}
+
+input[type=text]:hover{
+	/*background-color:#ebebeb;*/
+	border:none;
+  border: 1px solid #e0dede;
+  background-color: #f4f4f4;
+
+}
+
+#laporan input[type=submit] {
+    cursor: pointer;
+    /*-webkit-filter:brightness(95%);*/
+    padding: 5px;
+    width: 5%;
+    border-radius: 10px;
+    background-color: #090b16;
+    color: white;
+    border: none;
+}
+#laporan input[type=submit]:hover {
+     background-color: #f4f4f4;
+  color: #090b16;
+  border: 1px solid #090b16;
+}
+
+#crud input[type=submit] {
+    cursor: pointer;
+    /*-webkit-filter:brightness(95%);*/
+    padding: 15px;
+    width: auto;
+    border-radius: 10px;
+    background-color: #090b16;
+    color: white;
+    border: none;
+}
+#crud input[type=submit]:hover {
+     background-color: #f4f4f4;
+  color: #090b16;
+  border: 1px solid #090b16;
+}
+
+
+/*input[type=text]:hover{
+  background-color: white; 
+  color: #161616; 
+  border: 1px solid black;
+}
+*/
+
+input[type=number] {
+    width: 60%;
+    background-color: #f4f4f4;
+    padding: 10px 10px;
+    /*margin-top: -5px;*/
+    margin: 8px 0;
+    display: inline-block;
+    /*border: 1px solid #ec462e;*/ /*abuabu*/
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: none;
+    /*border-bottom: 2px solid red;*/
+}
+
+.minitxt{
+  font-size: 20px;
+}
+input[type=number]:hover{
+  border:none;
+  border: 1px solid #e0dede;
+  background-color: #f4f4f4;
+}
+
+input[type=date]{
+  width: 60%;
+    background-color: #f4f4f4;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: none;
+}
+
+input[type=date]:hover{
+ border:none;
+  border: 1px solid #e0dede;
+  background-color: #f4f4f4;
+}
+/*====================================================================================*/

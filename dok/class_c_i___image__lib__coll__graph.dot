@@ -1,0 +1,7 @@
+digraph "CI_Image_lib"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{CI_Image_lib\n|+ $image_library\l+ $library_path\l+ $dynamic_output\l+ $source_image\l+ $new_image\l+ $width\l+ $height\l+ $quality\l+ $create_thumb\l+ $thumb_marker\land 33 more...\l# $wm_font_color\l# $wm_shadow_color\l# $wm_use_drop_shadow\l|+ __construct()\l+ clear()\l+ initialize()\l+ resize()\l+ crop()\l+ rotate()\l+ image_process_gd()\l+ image_process_imagemagick()\l+ image_process_netpbm()\l+ image_rotate_gd()\land 15 more...\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+}

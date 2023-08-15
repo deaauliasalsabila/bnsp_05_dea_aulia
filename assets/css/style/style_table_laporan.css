@@ -1,0 +1,75 @@
+
+table {
+  border-collapse: collapse;
+  width: 75%;
+  margin-left: 80px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+th, td {
+  text-align: center;
+  padding: 20px 30px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border-radius: 1px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #333;
+  font-family: sans-serif; 
+  text-transform: uppercase; 
+  letter-spacing: 0.03em;
+  text-align: center;
+
+}
+/*data user */
+.fixed-th-user {
+  width: 100%;
+  box-shadow: 0 2px 3px 1px #ddd;
+  border:10px solid #fff; 
+}
+  .fixed-th-user thead {
+    color:#fff;
+    display: block;
+    width: 100%;
+    background-color: #333;
+  }
+  /* make it scrolled */
+  .fixed-th-user tbody {
+      display: block;
+      overflow-y: auto;
+      width: 100%;
+      max-height:400px;
+      position: static;
+  }
+
+/* sembunyikan judul */
+.title {
+  display: none;
+}
+
+  /* end make it scrolled */
+
+      .fixed-th-user th,.fixed-th-user td{
+        padding:20px 10px;
+        text-align: center;
+      }
+      .fixed-th-user th + th, .fixed-th-user td + td {
+        border-left:1px solid #ddd;
+      }
+      .fixed-th-user th:nth-child(1), .fixed-th-user td:nth-child(1) {
+        width:300px;
+      }
+      .fixed-th-user th:nth-child(2), .fixed-th-user td:nth-child(2) {
+        width:310px;
+      }
+      .fixed-th-user th:nth-child(3), .fixed-th-user td:nth-child(3) {
+        width:210px;
+      }
+      .fixed-th-user th:nth-child(4), .fixed-th-user td:nth-child(4) {
+        width:190px;
+      }
+/* */

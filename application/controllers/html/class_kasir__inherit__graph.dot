@@ -1,0 +1,9 @@
+digraph "Kasir"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{Kasir\n||+ __construct()\l+ index()\l+ v_all_dataPelanggan()\l+ tambahdataPelanggan()\l+ proses_tambahPelanggan()\l+ detailDataPelanggan()\l+ profil()\l+ proses_editProfil()\l+ v_all_dataTransaksi()\l+ detailDataTransaksi()\l+ editDataTransaksi()\l+ proses_editTransaksi()\l+ hapusDataTransaksi()\l+ v_all_dataLaporan()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{CI_Controller\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+}

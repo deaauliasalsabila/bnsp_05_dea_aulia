@@ -1,0 +1,7 @@
+digraph "CI_Migration"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{CI_Migration\n|# $_migration_enabled\l# $_migration_type\l# $_migration_path\l# $_migration_version\l# $_migration_table\l# $_migration_auto_latest\l# $_migration_regex\l# $_error_string\l|+ __construct()\l+ version()\l+ latest()\l+ current()\l+ error_string()\l+ find_migrations()\l+ __get()\l# _get_migration_number()\l# _get_migration_name()\l# _get_version()\l# _update_version()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+}

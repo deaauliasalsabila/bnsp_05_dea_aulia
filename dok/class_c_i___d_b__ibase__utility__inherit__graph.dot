@@ -1,0 +1,9 @@
+digraph "CI_DB_ibase_utility"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{CI_DB_ibase_utility\n||# _backup()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{CI_DB_utility\n|# $db\l# $_list_databases\l# $_optimize_table\l# $_repair_table\l|+ __construct()\l+ list_databases()\l+ database_exists()\l+ optimize_table()\l+ optimize_database()\l+ repair_table()\l+ csv_from_result()\l+ xml_from_result()\l+ backup()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_i___d_b__utility.html",tooltip=" "];
+}

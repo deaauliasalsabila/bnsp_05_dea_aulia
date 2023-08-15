@@ -1,0 +1,56 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="CI_DB_forge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_i___d_b__forge.html",tooltip=" "];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="CI_DB_cubrid_forge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_i___d_b__cubrid__forge.html",tooltip=" "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="CI_DB_ibase_forge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_i___d_b__ibase__forge.html",tooltip=" "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="CI_DB_mssql_forge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_i___d_b__mssql__forge.html",tooltip=" "];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="CI_DB_mysql_forge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_i___d_b__mysql__forge.html",tooltip=" "];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="CI_DB_mysqli_forge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_i___d_b__mysqli__forge.html",tooltip=" "];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="CI_DB_oci8_forge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_i___d_b__oci8__forge.html",tooltip=" "];
+  Node0 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="CI_DB_odbc_forge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_i___d_b__odbc__forge.html",tooltip=" "];
+  Node0 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="CI_DB_pdo_forge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_i___d_b__pdo__forge.html",tooltip=" "];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="CI_DB_pdo_4d_forge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_i___d_b__pdo__4d__forge.html",tooltip=" "];
+  Node8 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="CI_DB_pdo_cubrid_forge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_i___d_b__pdo__cubrid__forge.html",tooltip=" "];
+  Node8 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="CI_DB_pdo_dblib_forge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_i___d_b__pdo__dblib__forge.html",tooltip=" "];
+  Node8 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="CI_DB_pdo_firebird\l_forge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_i___d_b__pdo__firebird__forge.html",tooltip=" "];
+  Node8 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="CI_DB_pdo_ibm_forge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_i___d_b__pdo__ibm__forge.html",tooltip=" "];
+  Node8 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="CI_DB_pdo_informix\l_forge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_i___d_b__pdo__informix__forge.html",tooltip=" "];
+  Node8 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="CI_DB_pdo_mysql_forge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_i___d_b__pdo__mysql__forge.html",tooltip=" "];
+  Node8 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="CI_DB_pdo_oci_forge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_i___d_b__pdo__oci__forge.html",tooltip=" "];
+  Node8 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="CI_DB_pdo_odbc_forge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_i___d_b__pdo__odbc__forge.html",tooltip=" "];
+  Node8 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="CI_DB_pdo_pgsql_forge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_i___d_b__pdo__pgsql__forge.html",tooltip=" "];
+  Node8 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="CI_DB_pdo_sqlite_forge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_i___d_b__pdo__sqlite__forge.html",tooltip=" "];
+  Node8 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="CI_DB_pdo_sqlsrv_forge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_i___d_b__pdo__sqlsrv__forge.html",tooltip=" "];
+  Node0 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="CI_DB_postgre_forge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_i___d_b__postgre__forge.html",tooltip=" "];
+  Node0 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="CI_DB_sqlite3_forge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_i___d_b__sqlite3__forge.html",tooltip=" "];
+  Node0 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="CI_DB_sqlite_forge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_i___d_b__sqlite__forge.html",tooltip=" "];
+  Node0 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="CI_DB_sqlsrv_forge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_i___d_b__sqlsrv__forge.html",tooltip=" "];
+}

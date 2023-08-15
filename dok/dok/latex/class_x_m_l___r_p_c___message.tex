@@ -1,0 +1,284 @@
+\hypertarget{class_x_m_l___r_p_c___message}{}\section{X\+M\+L\+\_\+\+R\+P\+C\+\_\+\+Message Class Reference}
+\label{class_x_m_l___r_p_c___message}\index{XML\_RPC\_Message@{XML\_RPC\_Message}}
+Inheritance diagram for X\+M\+L\+\_\+\+R\+P\+C\+\_\+\+Message\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_x_m_l___r_p_c___message}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_x_m_l___r_p_c___message_a099ea001f597681d3e5d9004923ccbcf}{\+\_\+\+\_\+construct}} (\$\mbox{\hyperlink{class_c_i___xmlrpc_a3d7e090549ec52eba8cf65598eefa72c}{method}}, \$pars=F\+A\+L\+SE)
+\item 
+\mbox{\hyperlink{class_x_m_l___r_p_c___message_a9db0a53d149ebbb907ef60a27bbc9f1c}{create\+Payload}} ()
+\item 
+\mbox{\hyperlink{class_x_m_l___r_p_c___message_ab1b93386615fce804baf236bf660a646}{parse\+Response}} (\$fp)
+\item 
+\mbox{\hyperlink{class_x_m_l___r_p_c___message_a7709ec5b6f0e3769592f8afdc23b9169}{open\+\_\+tag}} (\$the\+\_\+parser, \$\mbox{\hyperlink{waiter_2order_8php_afb270cde4944e425a37cf277116a7f43}{name}})
+\item 
+\mbox{\hyperlink{class_x_m_l___r_p_c___message_a6f0fbd9812fbf30516fa22d5743d9e89}{closing\+\_\+tag}} (\$the\+\_\+parser, \$\mbox{\hyperlink{waiter_2order_8php_afb270cde4944e425a37cf277116a7f43}{name}})
+\item 
+\mbox{\hyperlink{class_x_m_l___r_p_c___message_ae10d173fc93c23cb233ff01acb2afbe2}{character\+\_\+data}} (\$the\+\_\+parser, \$data)
+\item 
+\mbox{\hyperlink{class_x_m_l___r_p_c___message_a8000e3ae75e90052e5ee10febb9ce2d0}{add\+Param}} (\$par)
+\item 
+\mbox{\hyperlink{class_x_m_l___r_p_c___message_a763d97af7e5ff17493db7ecbd1064ba9}{output\+\_\+parameters}} (array \$array=array())
+\item 
+\mbox{\hyperlink{class_x_m_l___r_p_c___message_a76c958448d4b6569bfab9bfd2fb3dff0}{decode\+\_\+message}} (\$param)
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_x_m_l___r_p_c___message_ab6c08f2335783abfa1bce5d22fb3466e}{\$payload}}
+\item 
+\mbox{\hyperlink{class_x_m_l___r_p_c___message_a88c34f4701e451bbcef63e44e5902ebd}{\$method\+\_\+name}}
+\item 
+\mbox{\hyperlink{class_x_m_l___r_p_c___message_afe68e6fbe7acfbffc0af0c84a1996466}{\$params}} = array()
+\item 
+\mbox{\hyperlink{class_x_m_l___r_p_c___message_aad3b174789357e147f0daa5b69930ac8}{\$xh}} = array()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 1035 of file Xmlrpc.\+php.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_x_m_l___r_p_c___message_a099ea001f597681d3e5d9004923ccbcf}\label{class_x_m_l___r_p_c___message_a099ea001f597681d3e5d9004923ccbcf}} 
+\index{XML\_RPC\_Message@{XML\_RPC\_Message}!\_\_construct@{\_\_construct}}
+\index{\_\_construct@{\_\_construct}!XML\_RPC\_Message@{XML\_RPC\_Message}}
+\subsubsection{\texorpdfstring{\_\_construct()}{\_\_construct()}}
+{\footnotesize\ttfamily \+\_\+\+\_\+construct (\begin{DoxyParamCaption}\item[{}]{\$method,  }\item[{}]{\$pars = {\ttfamily FALSE} }\end{DoxyParamCaption})}
+
+Constructor
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$method} & \\
+\hline
+array & {\em \$pars} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 1075 of file Xmlrpc.\+php.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_x_m_l___r_p_c___message_a8000e3ae75e90052e5ee10febb9ce2d0}\label{class_x_m_l___r_p_c___message_a8000e3ae75e90052e5ee10febb9ce2d0}} 
+\index{XML\_RPC\_Message@{XML\_RPC\_Message}!addParam@{addParam}}
+\index{addParam@{addParam}!XML\_RPC\_Message@{XML\_RPC\_Message}}
+\subsubsection{\texorpdfstring{addParam()}{addParam()}}
+{\footnotesize\ttfamily add\+Param (\begin{DoxyParamCaption}\item[{}]{\$par }\end{DoxyParamCaption})}
+
+Add parameter
+
+
+\begin{DoxyParams}{Parameters}
+{\em mixed} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 1547 of file Xmlrpc.\+php.
+
+\mbox{\Hypertarget{class_x_m_l___r_p_c___message_ae10d173fc93c23cb233ff01acb2afbe2}\label{class_x_m_l___r_p_c___message_ae10d173fc93c23cb233ff01acb2afbe2}} 
+\index{XML\_RPC\_Message@{XML\_RPC\_Message}!character\_data@{character\_data}}
+\index{character\_data@{character\_data}!XML\_RPC\_Message@{XML\_RPC\_Message}}
+\subsubsection{\texorpdfstring{character\_data()}{character\_data()}}
+{\footnotesize\ttfamily character\+\_\+data (\begin{DoxyParamCaption}\item[{}]{\$the\+\_\+parser,  }\item[{}]{\$data }\end{DoxyParamCaption})}
+
+Parse character data
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 1516 of file Xmlrpc.\+php.
+
+\mbox{\Hypertarget{class_x_m_l___r_p_c___message_a6f0fbd9812fbf30516fa22d5743d9e89}\label{class_x_m_l___r_p_c___message_a6f0fbd9812fbf30516fa22d5743d9e89}} 
+\index{XML\_RPC\_Message@{XML\_RPC\_Message}!closing\_tag@{closing\_tag}}
+\index{closing\_tag@{closing\_tag}!XML\_RPC\_Message@{XML\_RPC\_Message}}
+\subsubsection{\texorpdfstring{closing\_tag()}{closing\_tag()}}
+{\footnotesize\ttfamily closing\+\_\+tag (\begin{DoxyParamCaption}\item[{}]{\$the\+\_\+parser,  }\item[{}]{\$name }\end{DoxyParamCaption})}
+
+End Element Handler
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 1382 of file Xmlrpc.\+php.
+
+\mbox{\Hypertarget{class_x_m_l___r_p_c___message_a9db0a53d149ebbb907ef60a27bbc9f1c}\label{class_x_m_l___r_p_c___message_a9db0a53d149ebbb907ef60a27bbc9f1c}} 
+\index{XML\_RPC\_Message@{XML\_RPC\_Message}!createPayload@{createPayload}}
+\index{createPayload@{createPayload}!XML\_RPC\_Message@{XML\_RPC\_Message}}
+\subsubsection{\texorpdfstring{createPayload()}{createPayload()}}
+{\footnotesize\ttfamily create\+Payload (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Create Payload to Send
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 1097 of file Xmlrpc.\+php.
+
+\mbox{\Hypertarget{class_x_m_l___r_p_c___message_a76c958448d4b6569bfab9bfd2fb3dff0}\label{class_x_m_l___r_p_c___message_a76c958448d4b6569bfab9bfd2fb3dff0}} 
+\index{XML\_RPC\_Message@{XML\_RPC\_Message}!decode\_message@{decode\_message}}
+\index{decode\_message@{decode\_message}!XML\_RPC\_Message@{XML\_RPC\_Message}}
+\subsubsection{\texorpdfstring{decode\_message()}{decode\_message()}}
+{\footnotesize\ttfamily decode\+\_\+message (\begin{DoxyParamCaption}\item[{}]{\$param }\end{DoxyParamCaption})}
+
+Decode message
+
+
+\begin{DoxyParams}{Parameters}
+{\em object} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+
+
+Definition at line 1610 of file Xmlrpc.\+php.
+
+\mbox{\Hypertarget{class_x_m_l___r_p_c___message_a7709ec5b6f0e3769592f8afdc23b9169}\label{class_x_m_l___r_p_c___message_a7709ec5b6f0e3769592f8afdc23b9169}} 
+\index{XML\_RPC\_Message@{XML\_RPC\_Message}!open\_tag@{open\_tag}}
+\index{open\_tag@{open\_tag}!XML\_RPC\_Message@{XML\_RPC\_Message}}
+\subsubsection{\texorpdfstring{open\_tag()}{open\_tag()}}
+{\footnotesize\ttfamily open\+\_\+tag (\begin{DoxyParamCaption}\item[{}]{\$the\+\_\+parser,  }\item[{}]{\$name }\end{DoxyParamCaption})}
+
+Start Element Handler
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+An Invalid Element is Found, so we have trouble 
+
+Definition at line 1281 of file Xmlrpc.\+php.
+
+\mbox{\Hypertarget{class_x_m_l___r_p_c___message_a763d97af7e5ff17493db7ecbd1064ba9}\label{class_x_m_l___r_p_c___message_a763d97af7e5ff17493db7ecbd1064ba9}} 
+\index{XML\_RPC\_Message@{XML\_RPC\_Message}!output\_parameters@{output\_parameters}}
+\index{output\_parameters@{output\_parameters}!XML\_RPC\_Message@{XML\_RPC\_Message}}
+\subsubsection{\texorpdfstring{output\_parameters()}{output\_parameters()}}
+{\footnotesize\ttfamily output\+\_\+parameters (\begin{DoxyParamCaption}\item[{array}]{\$array = {\ttfamily array()} }\end{DoxyParamCaption})}
+
+Output parameters
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$array} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+
+
+Definition at line 1560 of file Xmlrpc.\+php.
+
+\mbox{\Hypertarget{class_x_m_l___r_p_c___message_ab1b93386615fce804baf236bf660a646}\label{class_x_m_l___r_p_c___message_ab1b93386615fce804baf236bf660a646}} 
+\index{XML\_RPC\_Message@{XML\_RPC\_Message}!parseResponse@{parseResponse}}
+\index{parseResponse@{parseResponse}!XML\_RPC\_Message@{XML\_RPC\_Message}}
+\subsubsection{\texorpdfstring{parseResponse()}{parseResponse()}}
+{\footnotesize\ttfamily parse\+Response (\begin{DoxyParamCaption}\item[{}]{\$fp }\end{DoxyParamCaption})}
+
+Parse External X\+M\+L-\/\+R\+PC Server\textquotesingle{}s Response
+
+
+\begin{DoxyParams}{Parameters}
+{\em resource} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+
+
+Definition at line 1121 of file Xmlrpc.\+php.
+
+
+
+\subsection{Field Documentation}
+\mbox{\Hypertarget{class_x_m_l___r_p_c___message_a88c34f4701e451bbcef63e44e5902ebd}\label{class_x_m_l___r_p_c___message_a88c34f4701e451bbcef63e44e5902ebd}} 
+\index{XML\_RPC\_Message@{XML\_RPC\_Message}!\$method\_name@{\$method\_name}}
+\index{\$method\_name@{\$method\_name}!XML\_RPC\_Message@{XML\_RPC\_Message}}
+\subsubsection{\texorpdfstring{\$method\_name}{$method\_name}}
+{\footnotesize\ttfamily \$method\+\_\+name}
+
+
+
+Definition at line 1050 of file Xmlrpc.\+php.
+
+\mbox{\Hypertarget{class_x_m_l___r_p_c___message_afe68e6fbe7acfbffc0af0c84a1996466}\label{class_x_m_l___r_p_c___message_afe68e6fbe7acfbffc0af0c84a1996466}} 
+\index{XML\_RPC\_Message@{XML\_RPC\_Message}!\$params@{\$params}}
+\index{\$params@{\$params}!XML\_RPC\_Message@{XML\_RPC\_Message}}
+\subsubsection{\texorpdfstring{\$params}{$params}}
+{\footnotesize\ttfamily \$params = array()}
+
+
+
+Definition at line 1057 of file Xmlrpc.\+php.
+
+\mbox{\Hypertarget{class_x_m_l___r_p_c___message_ab6c08f2335783abfa1bce5d22fb3466e}\label{class_x_m_l___r_p_c___message_ab6c08f2335783abfa1bce5d22fb3466e}} 
+\index{XML\_RPC\_Message@{XML\_RPC\_Message}!\$payload@{\$payload}}
+\index{\$payload@{\$payload}!XML\_RPC\_Message@{XML\_RPC\_Message}}
+\subsubsection{\texorpdfstring{\$payload}{$payload}}
+{\footnotesize\ttfamily \$payload}
+
+
+
+Definition at line 1043 of file Xmlrpc.\+php.
+
+\mbox{\Hypertarget{class_x_m_l___r_p_c___message_aad3b174789357e147f0daa5b69930ac8}\label{class_x_m_l___r_p_c___message_aad3b174789357e147f0daa5b69930ac8}} 
+\index{XML\_RPC\_Message@{XML\_RPC\_Message}!\$xh@{\$xh}}
+\index{\$xh@{\$xh}!XML\_RPC\_Message@{XML\_RPC\_Message}}
+\subsubsection{\texorpdfstring{\$xh}{$xh}}
+{\footnotesize\ttfamily \$xh = array()}
+
+
+
+Definition at line 1064 of file Xmlrpc.\+php.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+system/libraries/\mbox{\hyperlink{_xmlrpc_8php}{Xmlrpc.\+php}}\end{DoxyCompactItemize}

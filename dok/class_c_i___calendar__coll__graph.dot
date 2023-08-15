@@ -1,0 +1,7 @@
+digraph "CI_Calendar"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{CI_Calendar\n|+ $template\l+ $replacements\l+ $start_day\l+ $month_type\l+ $day_type\l+ $show_next_prev\l+ $next_prev_url\l+ $show_other_days\l# $CI\l|+ __construct()\l+ initialize()\l+ generate()\l+ get_month_name()\l+ get_day_names()\l+ adjust_date()\l+ get_total_days()\l+ default_template()\l+ parse_template()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+}

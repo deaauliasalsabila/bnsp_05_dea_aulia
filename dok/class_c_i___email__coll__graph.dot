@@ -1,0 +1,7 @@
+digraph "CI_Email"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{CI_Email\n|+ $useragent\l+ $mailpath\l+ $protocol\l+ $smtp_host\l+ $smtp_user\l+ $smtp_pass\l+ $smtp_port\l+ $smtp_timeout\l+ $smtp_keepalive\l+ $smtp_crypto\land 13 more...\l# $_safe_mode\l# $_subject\l# $_body\l# $_finalbody\l# $_header_str\l# $_smtp_connect\l# $_encoding\l# $_smtp_auth\l# $_replyto_flag\l# $_debug_msg\land 9 more...\l# $func_overload\l|+ __construct()\l+ initialize()\l+ clear()\l+ from()\l+ reply_to()\l+ to()\l+ cc()\l+ bcc()\l+ subject()\l+ message()\land 18 more...\l# _str_to_array()\l# _get_message_id()\l# _get_protocol()\l# _get_encoding()\l# _get_content_type()\l# _set_date()\l# _get_mime_message()\l# _get_alt_message()\l# _build_headers()\l# _write_headers()\land 21 more...\l# strlen()\l# substr()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+}

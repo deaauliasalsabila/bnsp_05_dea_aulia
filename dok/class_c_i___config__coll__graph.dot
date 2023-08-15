@@ -1,0 +1,7 @@
+digraph "CI_Config"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{CI_Config\n|+ $config\l+ $is_loaded\l+ $_config_paths\l|+ __construct()\l+ load()\l+ item()\l+ slash_item()\l+ site_url()\l+ base_url()\l+ system_url()\l+ set_item()\l# _uri_string()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+}

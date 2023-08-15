@@ -1,0 +1,7 @@
+digraph "CI_Exceptions"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{CI_Exceptions\n|+ $ob_level\l+ $levels\l|+ __construct()\l+ log_exception()\l+ show_404()\l+ show_error()\l+ show_exception()\l+ show_php_error()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+}

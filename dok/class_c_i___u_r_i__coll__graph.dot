@@ -1,0 +1,7 @@
+digraph "CI_URI"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{CI_URI\n|+ $keyval\l+ $uri_string\l+ $segments\l+ $rsegments\l# $_permitted_uri_chars\l|+ __construct()\l+ filter_uri()\l+ segment()\l+ rsegment()\l+ uri_to_assoc()\l+ ruri_to_assoc()\l+ assoc_to_uri()\l+ slash_segment()\l+ slash_rsegment()\l+ segment_array()\l+ rsegment_array()\l+ total_segments()\l+ total_rsegments()\l+ uri_string()\l+ ruri_string()\l# _set_uri_string()\l# _parse_request_uri()\l# _parse_query_string()\l# _parse_argv()\l# _remove_relative_directory()\l# _uri_to_assoc()\l# _slash_segment()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+}

@@ -1,0 +1,260 @@
+\hypertarget{_code_igniter_8php}{}\section{system/core/\+Code\+Igniter.php File Reference}
+\label{_code_igniter_8php}\index{system/core/CodeIgniter.php@{system/core/CodeIgniter.php}}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespace_code_igniter}{Code\+Igniter}}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\& \mbox{\hyperlink{_code_igniter_8php_a185483844bd20a0e80955460d66d2199}{get\+\_\+instance}} ()
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+const \mbox{\hyperlink{_code_igniter_8php_a32e3c3927ba8ec93df92327dfd85d564}{C\+I\+\_\+\+V\+E\+R\+S\+I\+ON}} = \textquotesingle{}3.\+1.\+9\textquotesingle{}
+\item 
+if(file\+\_\+exists(A\+P\+P\+P\+A\+T\+H. \textquotesingle{}config/\textquotesingle{}.E\+N\+V\+I\+R\+O\+N\+M\+E\+N\+T.\textquotesingle{}/constants.\+php\textquotesingle{})) \mbox{\hyperlink{_code_igniter_8php_a68ca62d45495d195f67d234bdafb1d1f}{if}} (file\+\_\+exists(A\+P\+P\+P\+A\+T\+H. \textquotesingle{}config/constants.\+php\textquotesingle{}))
+\item 
+\mbox{\hyperlink{_code_igniter_8php_a68ca62d45495d195f67d234bdafb1d1f}{if}}(! empty(\$assign\+\_\+to\+\_\+config\mbox{[}\textquotesingle{}subclass\+\_\+prefix\textquotesingle{}\mbox{]})) \mbox{\hyperlink{_code_igniter_8php_a68ca62d45495d195f67d234bdafb1d1f}{if}}(\$composer\+\_\+autoload=config\+\_\+item(\textquotesingle{}composer\+\_\+autoload\textquotesingle{})) \mbox{\hyperlink{_code_igniter_8php_a13e4265227a370a54765a330eaa5b111}{\$\+BM}} =\& load\+\_\+class(\textquotesingle{}Benchmark\textquotesingle{}, \textquotesingle{}core\textquotesingle{})
+\item 
+\mbox{\hyperlink{_code_igniter_8php_ab97aae9bc0aae04b84d360a29a3c035b}{\$\+E\+XT}} =\& load\+\_\+class(\textquotesingle{}Hooks\textquotesingle{}, \textquotesingle{}core\textquotesingle{})
+\item 
+\mbox{\hyperlink{_code_igniter_8php_adb9373e11e42b2cd55d1fe249ae72deb}{\$\+C\+FG}} =\& load\+\_\+class(\textquotesingle{}Config\textquotesingle{}, \textquotesingle{}core\textquotesingle{})
+\item 
+\mbox{\hyperlink{_code_igniter_8php_a68ca62d45495d195f67d234bdafb1d1f}{if}}(isset(\$assign\+\_\+to\+\_\+config) \&\&is\+\_\+array(\$assign\+\_\+to\+\_\+config)) \mbox{\hyperlink{_code_igniter_8php_a7e7d4efeadded7c1817a6313303f81f4}{\$charset}} = strtoupper(config\+\_\+item(\textquotesingle{}charset\textquotesingle{}))
+\item 
+\mbox{\hyperlink{_code_igniter_8php_a68ca62d45495d195f67d234bdafb1d1f}{if}}(extension\+\_\+loaded(\textquotesingle{}mbstring\textquotesingle{})) \mbox{\hyperlink{_code_igniter_8php_a6574dda0394726f334fcb9695654b02e}{else}}
+\item 
+\mbox{\hyperlink{_code_igniter_8php_a2060dabd8d00b5b0539bd041bf450924}{\$\+U\+NI}} =\& load\+\_\+class(\textquotesingle{}Utf8\textquotesingle{}, \textquotesingle{}core\textquotesingle{})
+\item 
+\mbox{\hyperlink{_code_igniter_8php_a630d83d898b39ad4568906284f7f5336}{\$\+U\+RI}} =\& load\+\_\+class(\textquotesingle{}U\+RI\textquotesingle{}, \textquotesingle{}core\textquotesingle{})
+\item 
+\mbox{\hyperlink{_code_igniter_8php_a4d6c9285c8483e4708a57a4128fc95f3}{\$\+R\+TR}} =\& load\+\_\+class(\textquotesingle{}Router\textquotesingle{}, \textquotesingle{}core\textquotesingle{}, isset(\$routing) ? \$routing \+: N\+U\+LL)
+\item 
+\mbox{\hyperlink{_code_igniter_8php_ad437402616c81c82c746f09854b23729}{\$\+O\+UT}} =\& load\+\_\+class(\textquotesingle{}Output\textquotesingle{}, \textquotesingle{}core\textquotesingle{})
+\item 
+\mbox{\hyperlink{_code_igniter_8php_a68ca62d45495d195f67d234bdafb1d1f}{if}}(\$E\+XT-\/$>$call\+\_\+hook(\textquotesingle{}cache\+\_\+override\textquotesingle{})===F\+A\+L\+SE \&\& \$O\+UT-\/$>$\+\_\+display\+\_\+cache(\$C\+FG, \$U\+RI)===\mbox{\hyperlink{constants_8php_ae04a3efe6aa42044f803ee90c2277846}{T\+R\+UE}}) \mbox{\hyperlink{_code_igniter_8php_a4b7abe119386c359d42b2eddeb8383b8}{\$\+S\+EC}} =\& load\+\_\+class(\textquotesingle{}Security\textquotesingle{}, \textquotesingle{}core\textquotesingle{})
+\item 
+\mbox{\hyperlink{_code_igniter_8php_a66d076d48aff75a01bb726f5bdd94d46}{\$\+IN}} =\& load\+\_\+class(\textquotesingle{}Input\textquotesingle{}, \textquotesingle{}core\textquotesingle{})
+\item 
+\mbox{\hyperlink{_code_igniter_8php_afab4eb732acc05cebf41e0afce18681c}{\$\+L\+A\+NG}} =\& load\+\_\+class(\textquotesingle{}Lang\textquotesingle{}, \textquotesingle{}core\textquotesingle{})
+\item 
+\mbox{\hyperlink{_code_igniter_8php_a20b89fa011927fc498a4a665fa44d061}{\$e404}} = F\+A\+L\+SE
+\item 
+\mbox{\hyperlink{_code_igniter_8php_a252ba022809910ea710a068fc1bab657}{\$class}} = ucfirst(\$R\+TR-\/$>$\mbox{\hyperlink{waiter_2olaporan_8php_a185c73c6507391d1eb38c776b68ce96d}{class}})
+\item 
+\mbox{\hyperlink{_code_igniter_8php_a12661b2fc0f57f97e30a1620889ce9c6}{\$method}} = \$R\+TR-\/$>$\mbox{\hyperlink{waiter_2order_8php_ac0cc2006fd803bf741cbbe406e3f6361}{method}}
+\item 
+\mbox{\hyperlink{_code_igniter_8php_ae0314d046ddf7fcfaec03222977427d3}{\$\+CI}} = new \$\mbox{\hyperlink{waiter_2olaporan_8php_a185c73c6507391d1eb38c776b68ce96d}{class}}()
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{_code_igniter_8php_a185483844bd20a0e80955460d66d2199}\label{_code_igniter_8php_a185483844bd20a0e80955460d66d2199}} 
+\index{CodeIgniter.php@{CodeIgniter.php}!get\_instance@{get\_instance}}
+\index{get\_instance@{get\_instance}!CodeIgniter.php@{CodeIgniter.php}}
+\subsubsection{\texorpdfstring{get\_instance()}{get\_instance()}}
+{\footnotesize\ttfamily \& get\+\_\+instance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Reference to the \mbox{\hyperlink{class_c_i___controller}{C\+I\+\_\+\+Controller}} method.
+
+Returns current CI instance object
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_c_i___controller}{C\+I\+\_\+\+Controller}} 
+\end{DoxyReturn}
+
+
+Definition at line 367 of file Code\+Igniter.\+php.
+
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{_code_igniter_8php_a13e4265227a370a54765a330eaa5b111}\label{_code_igniter_8php_a13e4265227a370a54765a330eaa5b111}} 
+\index{CodeIgniter.php@{CodeIgniter.php}!\$BM@{\$BM}}
+\index{\$BM@{\$BM}!CodeIgniter.php@{CodeIgniter.php}}
+\subsubsection{\texorpdfstring{\$BM}{$BM}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_code_igniter_8php_a68ca62d45495d195f67d234bdafb1d1f}{if}} (! empty( \$assign\+\_\+to\+\_\+config\mbox{[} \textquotesingle{}subclass\+\_\+prefix\textquotesingle{}\mbox{]})) \mbox{\hyperlink{_code_igniter_8php_a68ca62d45495d195f67d234bdafb1d1f}{if}} ( \$composer\+\_\+autoload=config\+\_\+item( \textquotesingle{}composer\+\_\+autoload\textquotesingle{})) \$BM =\& load\+\_\+class(\textquotesingle{}Benchmark\textquotesingle{}, \textquotesingle{}core\textquotesingle{})}
+
+
+
+Definition at line 191 of file Code\+Igniter.\+php.
+
+\mbox{\Hypertarget{_code_igniter_8php_adb9373e11e42b2cd55d1fe249ae72deb}\label{_code_igniter_8php_adb9373e11e42b2cd55d1fe249ae72deb}} 
+\index{CodeIgniter.php@{CodeIgniter.php}!\$CFG@{\$CFG}}
+\index{\$CFG@{\$CFG}!CodeIgniter.php@{CodeIgniter.php}}
+\subsubsection{\texorpdfstring{\$CFG}{$CFG}}
+{\footnotesize\ttfamily \$C\+FG =\& load\+\_\+class(\textquotesingle{}Config\textquotesingle{}, \textquotesingle{}core\textquotesingle{})}
+
+
+
+Definition at line 219 of file Code\+Igniter.\+php.
+
+\mbox{\Hypertarget{_code_igniter_8php_a7e7d4efeadded7c1817a6313303f81f4}\label{_code_igniter_8php_a7e7d4efeadded7c1817a6313303f81f4}} 
+\index{CodeIgniter.php@{CodeIgniter.php}!\$charset@{\$charset}}
+\index{\$charset@{\$charset}!CodeIgniter.php@{CodeIgniter.php}}
+\subsubsection{\texorpdfstring{\$charset}{$charset}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_code_igniter_8php_a68ca62d45495d195f67d234bdafb1d1f}{if}} (isset( \$assign\+\_\+to\+\_\+config) \&\&is\+\_\+array( \$assign\+\_\+to\+\_\+config)) \$charset = strtoupper(config\+\_\+item(\textquotesingle{}charset\textquotesingle{}))}
+
+
+
+Definition at line 244 of file Code\+Igniter.\+php.
+
+\mbox{\Hypertarget{_code_igniter_8php_ae0314d046ddf7fcfaec03222977427d3}\label{_code_igniter_8php_ae0314d046ddf7fcfaec03222977427d3}} 
+\index{CodeIgniter.php@{CodeIgniter.php}!\$CI@{\$CI}}
+\index{\$CI@{\$CI}!CodeIgniter.php@{CodeIgniter.php}}
+\subsubsection{\texorpdfstring{\$CI}{$CI}}
+{\footnotesize\ttfamily \$CI = new \$\mbox{\hyperlink{waiter_2olaporan_8php_a185c73c6507391d1eb38c776b68ce96d}{class}}()}
+
+
+
+Definition at line 518 of file Code\+Igniter.\+php.
+
+\mbox{\Hypertarget{_code_igniter_8php_a252ba022809910ea710a068fc1bab657}\label{_code_igniter_8php_a252ba022809910ea710a068fc1bab657}} 
+\index{CodeIgniter.php@{CodeIgniter.php}!\$class@{\$class}}
+\index{\$class@{\$class}!CodeIgniter.php@{CodeIgniter.php}}
+\subsubsection{\texorpdfstring{\$class}{$class}}
+{\footnotesize\ttfamily \$\mbox{\hyperlink{waiter_2olaporan_8php_a185c73c6507391d1eb38c776b68ce96d}{class}} = ucfirst(\$R\+TR-\/$>$\mbox{\hyperlink{waiter_2olaporan_8php_a185c73c6507391d1eb38c776b68ce96d}{class}})}
+
+
+
+Definition at line 402 of file Code\+Igniter.\+php.
+
+\mbox{\Hypertarget{_code_igniter_8php_a20b89fa011927fc498a4a665fa44d061}\label{_code_igniter_8php_a20b89fa011927fc498a4a665fa44d061}} 
+\index{CodeIgniter.php@{CodeIgniter.php}!\$e404@{\$e404}}
+\index{\$e404@{\$e404}!CodeIgniter.php@{CodeIgniter.php}}
+\subsubsection{\texorpdfstring{\$e404}{$e404}}
+{\footnotesize\ttfamily \$e404 = F\+A\+L\+SE}
+
+
+
+Definition at line 401 of file Code\+Igniter.\+php.
+
+\mbox{\Hypertarget{_code_igniter_8php_ab97aae9bc0aae04b84d360a29a3c035b}\label{_code_igniter_8php_ab97aae9bc0aae04b84d360a29a3c035b}} 
+\index{CodeIgniter.php@{CodeIgniter.php}!\$EXT@{\$EXT}}
+\index{\$EXT@{\$EXT}!CodeIgniter.php@{CodeIgniter.php}}
+\subsubsection{\texorpdfstring{\$EXT}{$EXT}}
+{\footnotesize\ttfamily \$E\+XT =\& load\+\_\+class(\textquotesingle{}Hooks\textquotesingle{}, \textquotesingle{}core\textquotesingle{})}
+
+
+
+Definition at line 200 of file Code\+Igniter.\+php.
+
+\mbox{\Hypertarget{_code_igniter_8php_a66d076d48aff75a01bb726f5bdd94d46}\label{_code_igniter_8php_a66d076d48aff75a01bb726f5bdd94d46}} 
+\index{CodeIgniter.php@{CodeIgniter.php}!\$IN@{\$IN}}
+\index{\$IN@{\$IN}!CodeIgniter.php@{CodeIgniter.php}}
+\subsubsection{\texorpdfstring{\$IN}{$IN}}
+{\footnotesize\ttfamily \$IN =\& load\+\_\+class(\textquotesingle{}Input\textquotesingle{}, \textquotesingle{}core\textquotesingle{})}
+
+
+
+Definition at line 342 of file Code\+Igniter.\+php.
+
+\mbox{\Hypertarget{_code_igniter_8php_afab4eb732acc05cebf41e0afce18681c}\label{_code_igniter_8php_afab4eb732acc05cebf41e0afce18681c}} 
+\index{CodeIgniter.php@{CodeIgniter.php}!\$LANG@{\$LANG}}
+\index{\$LANG@{\$LANG}!CodeIgniter.php@{CodeIgniter.php}}
+\subsubsection{\texorpdfstring{\$LANG}{$LANG}}
+{\footnotesize\ttfamily \$L\+A\+NG =\& load\+\_\+class(\textquotesingle{}Lang\textquotesingle{}, \textquotesingle{}core\textquotesingle{})}
+
+
+
+Definition at line 349 of file Code\+Igniter.\+php.
+
+\mbox{\Hypertarget{_code_igniter_8php_a12661b2fc0f57f97e30a1620889ce9c6}\label{_code_igniter_8php_a12661b2fc0f57f97e30a1620889ce9c6}} 
+\index{CodeIgniter.php@{CodeIgniter.php}!\$method@{\$method}}
+\index{\$method@{\$method}!CodeIgniter.php@{CodeIgniter.php}}
+\subsubsection{\texorpdfstring{\$method}{$method}}
+{\footnotesize\ttfamily \$\mbox{\hyperlink{waiter_2order_8php_ac0cc2006fd803bf741cbbe406e3f6361}{method}} = \$R\+TR-\/$>$\mbox{\hyperlink{waiter_2order_8php_ac0cc2006fd803bf741cbbe406e3f6361}{method}}}
+
+
+
+Definition at line 403 of file Code\+Igniter.\+php.
+
+\mbox{\Hypertarget{_code_igniter_8php_ad437402616c81c82c746f09854b23729}\label{_code_igniter_8php_ad437402616c81c82c746f09854b23729}} 
+\index{CodeIgniter.php@{CodeIgniter.php}!\$OUT@{\$OUT}}
+\index{\$OUT@{\$OUT}!CodeIgniter.php@{CodeIgniter.php}}
+\subsubsection{\texorpdfstring{\$OUT}{$OUT}}
+{\footnotesize\ttfamily \$O\+UT =\& load\+\_\+class(\textquotesingle{}Output\textquotesingle{}, \textquotesingle{}core\textquotesingle{})}
+
+
+
+Definition at line 318 of file Code\+Igniter.\+php.
+
+\mbox{\Hypertarget{_code_igniter_8php_a4d6c9285c8483e4708a57a4128fc95f3}\label{_code_igniter_8php_a4d6c9285c8483e4708a57a4128fc95f3}} 
+\index{CodeIgniter.php@{CodeIgniter.php}!\$RTR@{\$RTR}}
+\index{\$RTR@{\$RTR}!CodeIgniter.php@{CodeIgniter.php}}
+\subsubsection{\texorpdfstring{\$RTR}{$RTR}}
+{\footnotesize\ttfamily \$R\+TR =\& load\+\_\+class(\textquotesingle{}Router\textquotesingle{}, \textquotesingle{}core\textquotesingle{}, isset(\$routing) ? \$routing \+: N\+U\+LL)}
+
+
+
+Definition at line 311 of file Code\+Igniter.\+php.
+
+\mbox{\Hypertarget{_code_igniter_8php_a4b7abe119386c359d42b2eddeb8383b8}\label{_code_igniter_8php_a4b7abe119386c359d42b2eddeb8383b8}} 
+\index{CodeIgniter.php@{CodeIgniter.php}!\$SEC@{\$SEC}}
+\index{\$SEC@{\$SEC}!CodeIgniter.php@{CodeIgniter.php}}
+\subsubsection{\texorpdfstring{\$SEC}{$SEC}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_code_igniter_8php_a68ca62d45495d195f67d234bdafb1d1f}{if}} ( \$E\+XT-\/$>$call\+\_\+hook( \textquotesingle{}cache\+\_\+override\textquotesingle{})===F\+A\+L\+SE \&\&\$O\+UT-\/$>$\+\_\+display\+\_\+cache( \$C\+FG, \$U\+RI)===\mbox{\hyperlink{constants_8php_ae04a3efe6aa42044f803ee90c2277846}{T\+R\+UE}}) \$S\+EC =\& load\+\_\+class(\textquotesingle{}Security\textquotesingle{}, \textquotesingle{}core\textquotesingle{})}
+
+
+
+Definition at line 335 of file Code\+Igniter.\+php.
+
+\mbox{\Hypertarget{_code_igniter_8php_a2060dabd8d00b5b0539bd041bf450924}\label{_code_igniter_8php_a2060dabd8d00b5b0539bd041bf450924}} 
+\index{CodeIgniter.php@{CodeIgniter.php}!\$UNI@{\$UNI}}
+\index{\$UNI@{\$UNI}!CodeIgniter.php@{CodeIgniter.php}}
+\subsubsection{\texorpdfstring{\$UNI}{$UNI}}
+{\footnotesize\ttfamily \$U\+NI =\& load\+\_\+class(\textquotesingle{}Utf8\textquotesingle{}, \textquotesingle{}core\textquotesingle{})}
+
+
+
+Definition at line 297 of file Code\+Igniter.\+php.
+
+\mbox{\Hypertarget{_code_igniter_8php_a630d83d898b39ad4568906284f7f5336}\label{_code_igniter_8php_a630d83d898b39ad4568906284f7f5336}} 
+\index{CodeIgniter.php@{CodeIgniter.php}!\$URI@{\$URI}}
+\index{\$URI@{\$URI}!CodeIgniter.php@{CodeIgniter.php}}
+\subsubsection{\texorpdfstring{\$URI}{$URI}}
+{\footnotesize\ttfamily \$U\+RI =\& load\+\_\+class(\textquotesingle{}U\+RI\textquotesingle{}, \textquotesingle{}core\textquotesingle{})}
+
+
+
+Definition at line 304 of file Code\+Igniter.\+php.
+
+\mbox{\Hypertarget{_code_igniter_8php_a32e3c3927ba8ec93df92327dfd85d564}\label{_code_igniter_8php_a32e3c3927ba8ec93df92327dfd85d564}} 
+\index{CodeIgniter.php@{CodeIgniter.php}!CI\_VERSION@{CI\_VERSION}}
+\index{CI\_VERSION@{CI\_VERSION}!CodeIgniter.php@{CodeIgniter.php}}
+\subsubsection{\texorpdfstring{CI\_VERSION}{CI\_VERSION}}
+{\footnotesize\ttfamily const C\+I\+\_\+\+V\+E\+R\+S\+I\+ON = \textquotesingle{}3.\+1.\+9\textquotesingle{}}
+
+
+
+Definition at line 58 of file Code\+Igniter.\+php.
+
+\mbox{\Hypertarget{_code_igniter_8php_a6574dda0394726f334fcb9695654b02e}\label{_code_igniter_8php_a6574dda0394726f334fcb9695654b02e}} 
+\index{CodeIgniter.php@{CodeIgniter.php}!else@{else}}
+\index{else@{else}!CodeIgniter.php@{CodeIgniter.php}}
+\subsubsection{\texorpdfstring{else}{else}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_code_igniter_8php_a68ca62d45495d195f67d234bdafb1d1f}{if}} (empty( \$\mbox{\hyperlink{waiter_2olaporan_8php_a185c73c6507391d1eb38c776b68ce96d}{class}}) OR ! file\+\_\+exists(A\+P\+P\+P\+A\+T\+H. \textquotesingle{}controllers/\textquotesingle{}. \$R\+TR-\/$>$directory. \$class.\textquotesingle{}.php\textquotesingle{})) else}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{        define(\textcolor{stringliteral}{'MB\_ENABLED'}, FALSE)}
+
+\end{DoxyCode}
+
+
+Definition at line 258 of file Code\+Igniter.\+php.
+
+\mbox{\Hypertarget{_code_igniter_8php_a68ca62d45495d195f67d234bdafb1d1f}\label{_code_igniter_8php_a68ca62d45495d195f67d234bdafb1d1f}} 
+\index{CodeIgniter.php@{CodeIgniter.php}!if@{if}}
+\index{if@{if}!CodeIgniter.php@{CodeIgniter.php}}
+\subsubsection{\texorpdfstring{if}{if}}
+{\footnotesize\ttfamily if(is\+\_\+php(\textquotesingle{}5.\+6\textquotesingle{}))}
+
+
+
+Definition at line 70 of file Code\+Igniter.\+php.
+

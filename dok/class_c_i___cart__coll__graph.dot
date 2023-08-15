@@ -1,0 +1,7 @@
+digraph "CI_Cart"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{CI_Cart\n|+ $product_id_rules\l+ $product_name_rules\l+ $product_name_safe\l# $CI\l# $_cart_contents\l|+ __construct()\l+ insert()\l+ update()\l+ total()\l+ remove()\l+ total_items()\l+ contents()\l+ get_item()\l+ has_options()\l+ product_options()\l+ format_number()\l+ destroy()\l# _insert()\l# _update()\l# _save_cart()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+}

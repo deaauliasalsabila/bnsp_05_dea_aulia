@@ -1,0 +1,9 @@
+digraph "CI_Jquery"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{CI_Jquery\n|+ $jquery_code_for_load\l+ $jquery_code_for_compile\l+ $jquery_corner_active\l+ $jquery_table_sorter\l_active\l+ $jquery_table_sorter\l_pager_active\l+ $jquery_ajax_img\l# $_javascript_folder\l|+ __construct()\l+ corner()\l+ modal()\l+ effect()\l+ plugin()\l+ ui()\l+ sortable()\l+ tablesorter()\l+ script()\l# _blur()\l# _change()\l# _click()\l# _dblclick()\l# _error()\l# _focus()\l# _hover()\l# _keydown()\l# _keyup()\l# _load()\land 28 more...\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{CI_Javascript\n|# $_javascript_location\l|+ __construct()\l+ blur()\l+ change()\l+ click()\l+ dblclick()\l+ error()\l+ focus()\l+ hover()\l+ keydown()\l+ keyup()\land 28 more...\l# _open_script()\l# _close_script()\l# _is_associative_array()\l# _prep_args()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_i___javascript.html",tooltip=" "];
+}

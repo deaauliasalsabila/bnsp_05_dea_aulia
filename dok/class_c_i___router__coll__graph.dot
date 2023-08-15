@@ -1,0 +1,7 @@
+digraph "CI_Router"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{CI_Router\n|+ $config\l+ $routes\l+ $class\l+ $method\l+ $directory\l+ $default_controller\l+ $translate_uri_dashes\l+ $enable_query_strings\l|+ __construct()\l+ set_class()\l+ fetch_class()\l+ set_method()\l+ fetch_method()\l+ set_directory()\l+ fetch_directory()\l# _set_routing()\l# _set_request()\l# _set_default_controller()\l# _validate_request()\l# _parse_routes()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+}

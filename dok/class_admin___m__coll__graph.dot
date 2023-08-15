@@ -1,0 +1,9 @@
+digraph "Admin_M"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{Admin_M\n||+ Count_user()\l+ Count_order()\l+ Count_transaksi()\l+ getAllUsers()\l+ level()\l+ tambah()\l+ tampilUser()\l+ edit()\l+ edit_data()\l+ hapusData()\land 12 more...\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{CI_Model\n||+ __construct()\l+ __get()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_i___model.html",tooltip=" "];
+}
