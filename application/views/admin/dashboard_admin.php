@@ -12,6 +12,7 @@
 	<?php $this->load->view('admin/sidebar_admin') ?>
 	<main class="s-layout-content">
 		<h1 >DASHBOARD</h1>
+		<h2>ADMIN</h2>
 	</main>
 	<div class="row">
 		<div class="kotak-abu">
