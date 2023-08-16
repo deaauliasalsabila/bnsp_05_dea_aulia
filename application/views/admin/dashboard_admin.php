@@ -13,6 +13,7 @@
 	<main class="s-layout-content">
 		<h1 >DASHBOARD</h1>
 		<h2>ADMIN</h2>
+		<h3>ADMIN1</h3>
 	</main>
 	<div class="row">
 		<div class="kotak-abu">
